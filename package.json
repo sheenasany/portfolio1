@@ -1,0 +1,24 @@
+{
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "npx tailwindcss -i ./src/styles.css -o public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheenasany/portfolio1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheenasany/portfolio1/issues"
+  },
+  "homepage": "https://github.com/sheenasany/portfolio1#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
