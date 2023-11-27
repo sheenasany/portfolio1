@@ -13,26 +13,18 @@
     <!-- Header -->
     <header> 
         <nav class="container flex items-center py-4 gap-4">
-                <div> 
-                    <h1 class="bg-clip-text text-transparent bg-gradient-to-l from-logo-colors-from via-logo-colors-via to-logo-colors-to font-bold cursor-pointer"><\Sheena><\Sang></h1>
-                </div>
-                <div>
-                    <h1 class="bg-clip-text text-transparent font-bold bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-about-colors-from
-                    via-about-colors-via to-about-colors-to cursor-pointer">About</h1>
-                </div>
-                <div>
-                    <h1 class="bg-clip-text text-transparent font-bold bg-[conic-gradient(var(--tw-gradient-stops))]  from-project-colors-from 
-                    via-project-colors-via to-project-colors-to cursor-pointer">Projects</h1>
-                </div>
-                <div>
-                    <h1 class="bg-clip-text text-transparent font-bold bg-[conic-gradient(var(--tw-gradient-stops))] from-contact-colors-from via-contact-colors-via to-contact-colors-to cursor-pointer">Contact</h1>
-                </div>
-                <div>
-                    <h1 class="bg-clip-text text-transparent font-bold bg-gradient-to-l from-resume-colors-from via-resume-colors-via to-resume-colors-to cursor-pointer">Resume</h1>
-                </div>
+            <h1 class="text-lg bg-clip-text text-transparent bg-gradient-to-l from-logo-colors-from via-logo-colors-via to-logo-colors-to font-bold cursor-pointer"><\Sheena><\Sang></h1>
+            <ul class="flex items-center gap-4 text-lg">
+                <li class="bg-clip-text text-transparent font-bold bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-about-colors-from
+                via-about-colors-via to-about-colors-to cursor-pointer">About</li>
+                <li class="bg-clip-text text-transparent font-bold bg-[conic-gradient(var(--tw-gradient-stops))]  from-project-colors-from 
+                via-project-colors-via to-project-colors-to cursor-pointer">Projects</li>
+                <li class="bg-clip-text text-transparent font-bold bg-[conic-gradient(var(--tw-gradient-stops))] from-contact-colors-from via-contact-colors-via to-contact-colors-to cursor-pointer">Contact</li>
+                <li class="bg-clip-text text-transparent font-bold bg-gradient-to-l from-resume-colors-from via-resume-colors-via to-resume-colors-to cursor-pointer">Resume</li>
+            </ul>
 
                 <!-- github icon -->
-                <svg class="h-7 w-8" xmlns="http://www.w3.org/2000/svg"  fill="none">
+                <svg class="h-7 w-8 cursor-pointer" xmlns="http://www.w3.org/2000/svg"  fill="none">
                     <path fill="url(#a)" d="M17.16 3.418c-6.727 0-12.463 4.464-13.54 10.541s2.822 11.972 9.205 13.917c.688.113.934-.273.934-.605 0-.298-.011-1.088-.015-2.14-3.816.756-4.622-1.683-4.622-1.683-.25-.758-.79-1.41-1.522-1.835-1.237-.78.095-.761.095-.761.881.11 1.656.588 2.1 1.293.375.624 1.007 1.086 1.756 1.282.749.195 1.552.11 2.231-.239a2.604 2.604 0 0 1 .873-1.678c-3.044-.316-6.245-1.393-6.245-6.203-.017-1.245.488-2.447 1.411-3.361a4.16 4.16 0 0 1 .137-3.322s1.151-.338 3.77 1.285a14.142 14.142 0 0 1 6.865 0c2.62-1.624 3.77-1.285 3.77-1.285.508 1.05.557 2.24.137 3.322.927.914 1.431 2.12 1.409 3.366 0 4.822-3.204 5.882-6.26 6.193.66.616.997 1.462.929 2.322 0 1.679-.017 3.032-.017 3.444 0 .336.245.726.945.603 6.38-1.949 10.275-7.844 9.196-13.92C29.622 7.88 23.887 3.416 17.16 3.418Z"/>
                     <defs>
                         <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 12.2395 -13.7193 0 17.161 15.657)" gradientUnits="userSpaceOnUse">
@@ -43,7 +35,7 @@
                 </svg>
 
                 <!-- linkedin icon-->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-8" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-8 cursor-pointer" fill="none">
                     <path fill="url(#a)" d="M18.5 27.324H13V12.225h5.5v2.517c1.172-1.365 2.95-2.179 4.847-2.218 3.41.017 6.163 2.557 6.153 5.678v9.122H24V18.83c-.22-1.406-1.538-2.449-3.09-2.446-.678.02-1.32.292-1.774.753a2.167 2.167 0 0 0-.636 1.693v8.493Zm-8.25 0h-5.5V12.225h5.5v15.099ZM7.5 9.709c-1.519 0-2.75-1.127-2.75-2.516 0-1.39 1.231-2.517 2.75-2.517s2.75 1.127 2.75 2.517c0 .667-.29 1.307-.805 1.779a2.885 2.885 0 0 1-1.945.737Z"/>
                     <defs>
                         <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 11.3238 -12.375 0 17.125 16)" gradientUnits="userSpaceOnUse">
@@ -54,7 +46,7 @@
                 </svg>
                 
                 <!-- darkmode toggle -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="none">
+                <svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="none">
                     <path fill="url(#b)" d="M17.031 5.934c7.235 0 13.125 4.517 13.125 10.066s-5.89 10.066-13.125 10.066c-.558 0-1.115-.026-1.657-.088 3.134-2.718 4.938-6.266 4.938-9.978 0-3.712-1.804-7.26-4.938-9.978.542-.063 1.1-.088 1.657-.088Zm0-2.516c-2.986 0-5.791.629-8.203 1.698 4.906 2.177 8.203 6.229 8.203 10.884s-3.297 8.707-8.203 10.883c2.412 1.07 5.217 1.699 8.203 1.699 9.056 0 16.407-5.637 16.407-12.582 0-6.945-7.35-12.582-16.407-12.582Z"/>
                     <defs>
                         <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(0 12.582 -12.3047 0 21.133 16)" gradientUnits="userSpaceOnUse">
