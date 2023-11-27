@@ -3,10 +3,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
-      
     },
     fontFamily: {
-      Nunito: ["Nunito, sans-serif"],
+      Nunito: ["Nunito", "sans-serif"],
     },
     container: {
       center: true,
