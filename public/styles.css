@@ -570,6 +570,10 @@ video {
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -720,6 +724,10 @@ video {
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
 
 @media (min-width: 480px) {
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:justify-center {
     justify-content: center;
   }
@@ -732,5 +740,9 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 }
