@@ -1,0 +1,15 @@
+<!-- darkmode toggle -->
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="none">
+    <g clip-path="url(#a)">
+      <path fill="url(#b)" d="M17.031 5.934c7.235 0 13.125 4.517 13.125 10.066s-5.89 10.066-13.125 10.066c-.558 0-1.115-.026-1.657-.088 3.134-2.718 4.938-6.266 4.938-9.978 0-3.712-1.804-7.26-4.938-9.978.542-.063 1.1-.088 1.657-.088Zm0-2.516c-2.986 0-5.791.629-8.203 1.698 4.906 2.177 8.203 6.229 8.203 10.884s-3.297 8.707-8.203 10.883c2.412 1.07 5.217 1.699 8.203 1.699 9.056 0 16.407-5.637 16.407-12.582 0-6.945-7.35-12.582-16.407-12.582Z"/>
+    </g>
+    <defs>
+      <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(0 12.582 -12.3047 0 21.133 16)" gradientUnits="userSpaceOnUse">
+        <stop offset=".276" stop-color="#BF6166"/>
+        <stop offset=".776" stop-color="#594C93"/>
+      </radialGradient>
+      <clipPath id="a">
+        <path fill="#fff" d="M.625.901H40v30.197H.625z"/>
+      </clipPath>
+    </defs>
+  </svg>

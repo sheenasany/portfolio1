@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <title>Sheena Sang Portfolio Website</title>
-</head>
-<body class="font-Nunito">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/1bc078812b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <title>Sheena Sang Portfolio Website</title>
+    </head>
+    <body class="font-Nunito">
+        
+        <div class="min-h-screen bg-no-repeat bg-[url('./images/background-new.png')]">
     <!-- Header -->
     <header> 
-        <nav class="container flex items-center py-4 mt-4 sm:mt-12 ">
-            <h1 class="text-md uppercase gap-y-4 justify-around bg-clip-text text-transparent bg-gradient-to-l from-logo-colors-from via-logo-colors-via to-logo-colors-to font-bold cursor-pointer"> Sheena/Sang</h1>
-            <ul class="hidden sm:flex flex-1 items-center justify-center gap-4 uppercase text-md">
+        <nav class="flex items-center gap-4 py-4  bg-white">
+            <h1 class="text-md uppercase justify-around bg-clip-text text-transparent bg-gradient-to-l from-logo-colors-from via-logo-colors-via to-logo-colors-to font-bold cursor-pointer"> Sheena/Sang</h1>
+            <ul class="hidden md:flex flex-1 items-center gap-4 uppercase text-md">
                 <li class="bg-clip-text text-transparent font-bold bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-about-colors-from
                 via-about-colors-via to-about-colors-to cursor-pointer">About</li>
                 <li class="bg-clip-text text-transparent font-bold bg-[conic-gradient(var(--tw-gradient-stops))]  from-project-colors-from 
@@ -23,7 +26,7 @@
                 <li class="bg-clip-text text-transparent font-bold bg-gradient-to-l from-resume-colors-from via-resume-colors-via to-resume-colors-to cursor-pointer">Resume</li>
             </ul>
 
-            <div class="sm:justify-around flex items-center gap-2.5 ">
+            <div class="sm:justify-center flex items-center gap-2.5 ">
                 <!-- github icon -->
                 <svg class="h-7 w-8 cursor-pointer flex gap-4" xmlns="http://www.w3.org/2000/svg"  fill="none">
                     <path fill="url(#a)" d="M17.16 3.418c-6.727 0-12.463 4.464-13.54 10.541s2.822 11.972 9.205 13.917c.688.113.934-.273.934-.605 0-.298-.011-1.088-.015-2.14-3.816.756-4.622-1.683-4.622-1.683-.25-.758-.79-1.41-1.522-1.835-1.237-.78.095-.761.095-.761.881.11 1.656.588 2.1 1.293.375.624 1.007 1.086 1.756 1.282.749.195 1.552.11 2.231-.239a2.604 2.604 0 0 1 .873-1.678c-3.044-.316-6.245-1.393-6.245-6.203-.017-1.245.488-2.447 1.411-3.361a4.16 4.16 0 0 1 .137-3.322s1.151-.338 3.77 1.285a14.142 14.142 0 0 1 6.865 0c2.62-1.624 3.77-1.285 3.77-1.285.508 1.05.557 2.24.137 3.322.927.914 1.431 2.12 1.409 3.366 0 4.822-3.204 5.882-6.26 6.193.66.616.997 1.462.929 2.322 0 1.679-.017 3.032-.017 3.444 0 .336.245.726.945.603 6.38-1.949 10.275-7.844 9.196-13.92C29.622 7.88 23.887 3.416 17.16 3.418Z"/>
@@ -57,9 +60,12 @@
                     </defs>
                 </svg>
             </div>
-
+            <div class="flex md:hidden flex-1 justify-end">
+                <i class="text-2xl fa-solid fa-bars" style="color: #481e57;"></i>
+            </div>
         </nav>
     </header>
+    </div>
 </body>
 </html>
 

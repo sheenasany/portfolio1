@@ -534,24 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-@media (min-width: 1124px) {
-  .container {
-    max-width: 1124px;
-  }
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -562,6 +544,10 @@ video {
 
 .h-7 {
   height: 1.75rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-8 {
@@ -580,28 +566,12 @@ video {
   align-items: center;
 }
 
-.items-baseline {
-  align-items: baseline;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-center {
-  justify-content: center;
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-around {
   justify-content: space-around;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .gap-2 {
@@ -612,8 +582,13 @@ video {
   gap: 0.625rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
+.gap-4 {
+  gap: 1rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[conic-gradient\(var\(--tw-gradient-stops\)\)\] {
@@ -622,6 +597,10 @@ video {
 
 .bg-\[radial-gradient\(ellipse_at_bottom_right\2c _var\(--tw-gradient-stops\)\)\] {
   background-image: radial-gradient(ellipse at bottom right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\/images\/background-new\.png\'\)\] {
+  background-image: url('./images/background-new.png');
 }
 
 .bg-gradient-to-l {
@@ -708,42 +687,22 @@ video {
           background-clip: text;
 }
 
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .font-Nunito {
   font-family: Nunito, sans-serif;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -760,20 +719,18 @@ video {
 
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
 
-@media (min-width: 640px) {
-  .sm\:mt-12 {
-    margin-top: 3rem;
+@media (min-width: 480px) {
+  .sm\:justify-center {
+    justify-content: center;
   }
+}
 
-  .sm\:flex {
+@media (min-width: 640px) {
+  .md\:flex {
     display: flex;
   }
 
-  .sm\:justify-end {
-    justify-content: flex-end;
-  }
-
-  .sm\:justify-around {
-    justify-content: space-around;
+  .md\:hidden {
+    display: none;
   }
 }

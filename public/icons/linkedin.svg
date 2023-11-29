@@ -1,0 +1,10 @@
+<!-- linkedin -->
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" fill="none">
+    <path fill="url(#a)" d="M18.5 27.324H13V12.225h5.5v2.517c1.172-1.365 2.95-2.179 4.847-2.218 3.41.017 6.163 2.557 6.153 5.678v9.122H24V18.83c-.22-1.406-1.538-2.449-3.09-2.446-.678.02-1.32.292-1.774.753a2.167 2.167 0 0 0-.636 1.693v8.493Zm-8.25 0h-5.5V12.225h5.5v15.099ZM7.5 9.709c-1.519 0-2.75-1.127-2.75-2.516 0-1.39 1.231-2.517 2.75-2.517s2.75 1.127 2.75 2.517c0 .667-.29 1.307-.805 1.779a2.885 2.885 0 0 1-1.945.737Z"/>
+    <defs>
+        <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 11.3238 -12.375 0 17.125 16)" gradientUnits="userSpaceOnUse">
+            <stop offset=".313" stop-color="#FCC2EB"/>
+            <stop offset=".724" stop-color="#7BA2E7"/>
+        </radialGradient>
+    </defs>
+</svg>

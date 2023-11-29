@@ -34,11 +34,14 @@ module.exports = {
     fontFamily: {
       Nunito: ["Nunito", "sans-serif"],
     },
+    screens: {
+      "sm": "480px",
+      "md": "640px",
+    },
     container: {
       center: true,
-      padding: "1rem",
+      padding: "0.5rem",
       screens: {
-        // xs: "320px",
         lg: "1124px",
         xl: "1124px",
         "2xl": "1124px",
